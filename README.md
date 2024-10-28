@@ -17,10 +17,12 @@ colcon build --symlink-install
 
 3、向~/.bashrc文件添加source
 
-```
+```python
 source ~/swarm_frame/install/local_setup.sh
 ```
 
 4、运行demo文件夹中的例程
 
+```python
 python3 /home/jzx/swarm_frame/src/swarm_frame/swarm_frame/demo  *.py
+```
