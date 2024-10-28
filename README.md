@@ -9,7 +9,7 @@ mkdir -p swarm_behavior/src
 
 cd swarm_behavior/src
 
-git clone -- branch swarm_behavior https://github.com/SICC-Group/swarm_behavior.git
+git clone https://github.com/SICC-Group/swarm_behavior.git
 
 colcon build --symlink-install
 
