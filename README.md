@@ -1,15 +1,15 @@
-## swarm_behavior to Webots2023b
+## swarm_behavior_framework to Webots2023b
 
 1、安装Webots 2023b
 
 2、克隆、编译代码
 
 ```python
-mkdir -p swarm_behavior/src
+mkdir -p swarm_frame/src
 
-cd swarm_behavior/src
+cd swarm_frame/src
 
-git clone -- branch swarm_behavior https://github.com/SICC-Group/swarm_behavior.git
+git clone -- branch swarm_frame https://github.com/SICC-Group/swarm_behavior.git
 
 colcon build --symlink-install
 
@@ -18,12 +18,12 @@ colcon build --symlink-install
 3、向~/.bashrc文件添加source
 
 ```
-source ~/swarm_behavior/install/local_setup.sh
+source ~/swarm_frame/install/local_setup.sh
 ```
 
-4、启动群机器人行为
+4、在demo文件夹下运行案例
 
 ```python
-ros2 launch swarm_behavior attraction_pattern_launch.py
+python3 *.py
 ```
 
